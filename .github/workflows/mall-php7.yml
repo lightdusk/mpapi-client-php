@@ -6,7 +6,7 @@ on:
       - "client-v4-beta"
 
 jobs:
-  mirror:
+  php74composer:
     runs-on: ubuntu-latest
 
     steps:

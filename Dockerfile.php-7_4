@@ -1,6 +1,6 @@
-FROM composer:2 AS composer
+FROM ghcr.io/mallgroup/mpapi-client-php/composer:2 AS composer
 
-FROM php:7.4-cli-alpine
+FROM ghcr.io/mallgroup/mpapi-client-php/php:7.4-cli-alpine
 
 RUN apk add --no-cache \
     bash~=5.1 \

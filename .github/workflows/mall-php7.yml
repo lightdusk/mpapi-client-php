@@ -1,4 +1,4 @@
-name: dockerhub-mirror
+name: custom-image
 
 on:
   push:

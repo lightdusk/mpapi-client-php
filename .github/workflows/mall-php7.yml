@@ -21,19 +21,3 @@ jobs:
           file: Dockerfile.php-7_4
           push: true
           tags: ghcr.io/${{ github.repository }}/php74composer:1.0
-
-      # - name: Build custom PHP 7 image with Composer
-      #   run: |
-      #     IMAGE_ID=ghcr.io/${{ github.repository }}/php74composer
-      #     VERSION=1.0
-      #     PULL_IMAGE=php74composer:$VERSION
-
-      #     docker pull "$PULL_IMAGE"
-
-      #     docker build
-
-      #     echo IMAGE_ID=$IMAGE_ID
-      #     echo VERSION=$VERSION
-
-      #     docker tag "$PULL_IMAGE" "${IMAGE_ID}:${VERSION}"
-      #     docker push "${IMAGE_ID}:${VERSION}"
